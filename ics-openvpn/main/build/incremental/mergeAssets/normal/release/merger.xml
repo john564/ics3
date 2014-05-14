@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/john/Development/schwabe/ics-openvpn/main/src/main/assets" >
+            <file
+                name="full_licenses.html"
+                path="/home/john/Development/schwabe/ics-openvpn/main/src/main/assets/full_licenses.html" />
+        </source>
+        <source path="/home/john/Development/schwabe/ics-openvpn/main/ovpnlibs/assets" />
+    </dataSet>
+    <dataSet config="normal" >
+        <source path="/home/john/Development/schwabe/ics-openvpn/main/src/normal/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/john/Development/schwabe/ics-openvpn/main/src/release/assets" />
+    </dataSet>
+    <dataSet config="normalRelease" >
+        <source path="/home/john/Development/schwabe/ics-openvpn/main/src/normalRelease/assets" />
+    </dataSet>
+
+</merger>

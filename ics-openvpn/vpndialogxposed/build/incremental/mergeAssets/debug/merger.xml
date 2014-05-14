@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/john/Development/schwabe/ics-openvpn/vpndialogxposed/src/main/assets" >
+            <file
+                name="xposed_init"
+                path="/home/john/Development/schwabe/ics-openvpn/vpndialogxposed/src/main/assets/xposed_init" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/john/Development/schwabe/ics-openvpn/vpndialogxposed/src/debug/assets" />
+    </dataSet>
+
+</merger>
